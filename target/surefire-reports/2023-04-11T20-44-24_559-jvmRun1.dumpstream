@@ -1,0 +1,66 @@
+# Created at 2023-04-11T20:44:45.533
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2023-04-11T20:44:51.991
+Unexpected IOException with stream: Apr 11, 2023 8:44:51 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:52273
+
+
+# Created at 2023-04-11T20:44:52.153
+Unexpected IOException with stream: Apr 11, 2023 8:44:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 107
+
+
+# Created at 2023-04-11T20:44:52.273
+Unexpected IOException with stream:   [31mGiven [0m[31mApplication url for testing[0m                                           [90m# com.itview.stepdefination.Calculator_Test.application_url_for_testing()[0m
+
+
+# Created at 2023-04-11T20:44:52.290
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca8a044453c11f98484fc54225ef7882, get {url=https://juliemr.github.io/protractor-demo/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca8a044453c11f98484fc54225ef7882
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at com.itview.stepdefination.Calculator_Test.application_url_for_testing(Calculator_Test.java:25)
+	at âœ½.Application url for testing(file:///D:/project-cucumber/Feature/CalculatorModule.feature:8)
+[0m
+
+
+# Created at 2023-04-11T20:44:52.314
+Unexpected IOException with stream:   [36mWhen [0m[36mUser should enter two enter and perform multiplication operation[0m       [90m# com.itview.stepdefination.Calculator_Test.user_should_enter_two_enter_and_perform_multiplication_operation()[0m
+
+
+# Created at 2023-04-11T20:44:52.315
+Unexpected IOException with stream:   [36mThen [0m[36mResult should get display and verify output value for multiplication .[0m [90m# com.itview.stepdefination.Calculator_Test.result_should_get_display_and_verify_output_value_for_multiplication()[0m
+
+
+# Created at 2023-04-11T20:44:52.346
+Unexpected IOException: 7,1,Calculator Functionality, #3(Calculator Functionality),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.147)\000ABuild info: version: '4.6.0'\002C revision: '79f1c02ae20'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ca8a044453c11f98484fc54225ef7882\002C get {url=https://juliemr.github.io/protractor-demo/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.147\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005CASUS\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52273}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ca8a044453c11f98484fc54225ef7882,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.147)\000ABuild info: version: '4.6.0'\002C revision: '79f1c02ae20'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ca8a044453c11f98484fc54225ef7882\002C get {url=https://juliemr.github.io/protractor-demo/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.147\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005CASUS\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52273}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ca8a044453c11f98484fc54225ef7882,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.147)\000ABuild info: version: '4.6.0'\002C revision: '79f1c02ae20'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ca8a044453c11f98484fc54225ef7882\002C get {url=https://juliemr.github.io/protractor-demo/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.147\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005CASUS\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52273}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ca8a044453c11f98484fc54225ef7882,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=111.0.5563.147)\000ABuild info: version: '4.6.0'\002C revision: '79f1c02ae20'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_201'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ca8a044453c11f98484fc54225ef7882\002C get {url=https://juliemr.github.io/protractor-demo/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 111.0.5563.147\002C chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63...\002C userDataDir: C:\005CUsers\005CASUS\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:52273}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ca8a044453c11f98484fc54225ef7882\000A
+
+
+# Created at 2023-04-11T20:44:52.437
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.itview.testrunner.TestRunner,null,null,null
+
+
